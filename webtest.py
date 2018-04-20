@@ -21,3 +21,6 @@ print(getcode)
 
 getcode_needed = re.findall('xx(.*?)xx', code)
 print(getcode_needed)
+
+for i in getcode_needed:
+    print(i)
